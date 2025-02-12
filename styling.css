@@ -1,0 +1,43 @@
+
+#id1{box-shadow: 5px 5px 5px rgba(245, 146, 110, 0.699);
+
+}
+#id2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+#id2 i{
+    /* background-color: aqua; */
+    /* padding: 10px; */
+    margin-right: 10px;
+    color: aqua;
+}
+#id2 i:hover{
+    background-color: rgb(4, 0, 255);
+    font-size: 50px;
+}
+
+hr{ height: 5px;
+}
+a:visited{
+    color: brown;
+}
+a:active{
+    color: rgb(42, 21, 160);
+}
+img{
+    width:250px;
+    /* border: 3px solid blue; */
+    border-style: dashed;
+    border-radius: 40px;
+}
+body{
+    background-image: url(untitled.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+h1{
+    text-shadow: 3px 3px 10px yellow,4px 4px pink ;
+}

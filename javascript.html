@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Welcome to <span id="id1">HTML</span> course</p>
+    <img src="images\icons8-facebook-500.png" alt="" id="image"><br>
+    <button type="ok" onclick="change()">CLICK ME</button>
+    <button type="ok" onclick="change_image()">image</button>
+    <button type="ok" onclick="come_back()">previous</button>
+
+
+    <script>
+        //document.write('welcome to java script')/*------*/
+        //console.log("Welcome")
+        //variable -store data
+        //var,let,const
+        /*let x= "Welcome to javascript"
+        const age= 34
+        document.write(age)
+        age=age+1
+        document.write(age)*/
+        /*var x= 25
+        document.write(x+"<br>")
+        x=x+10
+        document.write(x)*/
+        function change(){
+        let x="java script"
+        document.getElementById('id1').innerHTML=x
+        document.getElementById('id1').style.color='red';
+        document.getElementById('id1').style.textDecoration='underline';
+        }
+        function change_image(){
+            document.getElementById('image').src='images\icons8-instagram-circle-480.png'
+        }
+        function come_back(){
+            document.getElementById('id1').innerHTML='HTML'
+            document.getElementById('id1').style='none'
+            document.getElementById('image').src='images\icons8-facebook-500.png'
+        }
+
+    </script>
+
+</body>
+</html>

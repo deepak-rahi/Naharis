@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form</title>
+    <link rel="stylesheet" href="formstyle.css">
+    <style>
+        .cl1{
+            border:1px solid gray;
+            margin: 10px auto;
+            padding: 10px;
+            width: 250px;
+            border-radius: 10px ;
+            background-color: rgb(222, 252, 166);
+            
+
+        }
+        form{
+            margin: auto;
+            width: 50%;
+            border: 1px solid;
+            border-radius: 10px;
+            background-color: rgb(180, 240, 92);
+        }
+        input{
+            width: 50%;
+        }
+        h3{
+            margin: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <h3 >Step1: Your details</h3>
+        <div class="cl1"><label for="">Name</label>
+        <input type="text" placeholder="First and last name"></div>
+        <div class="cl1"><label for="">DOB</label>
+        <input type="date" placeholder=""></div>
+        <div class="cl1"><label for="">Hobbies</label>
+            <br>
+            <input type="checkbox" name="Hobbies">Drawing
+            <input type="checkbox" name="Hobbies">Animation
+            <input type="checkbox" name="Hobbies">Reading
+            </div>
+        <div class="cl1">
+            <label for="">Course</label>
+            <select name="" id="">
+             <option value="">HTML</option>
+             <option value="">CSS</option>
+             <option value="">JS</option>  
+             <option value="">MOngoDB</option> 
+            </select>
+        </div>
+        <div class="cl1"><label for="">Email</label>
+        <input type="" placeholder="examole@doamin.com"></div>
+        <div class="cl1"><label for="">Password</label>
+        <input type="password" placeholder=""></div>
+        <div class="cl1"><label for="">Phone</label>
+        <input type="tel" placeholder="Eg. +445678****">
+
+    </div>
+        <h3>Step2: Delivery address</h3>
+        <div class="cl1"><label for="">Address</label>
+        <textarea name="" id=""></textarea></div>
+        <div class="cl1"><label for="">Post Code</label>
+        <input type="number" placeholder="Eg.2611**"></div>
+        <div class="cl1">
+            <label for="">Country</label>
+            <input type="text">
+        </div>
+        <h3>Step3:Card Details</h3>
+        <div class="cl1"><label for="">Card Type</label>
+            <br>
+        <input type="radio" name="Card">VISA
+        <input type="radio" name="Card">AMEX
+        <input type="radio" name="Card">Mastercard
+        </div>
+        <div class="cl1"><label for="">Post Code</label>
+        <input type="number" placeholder="Eg.2611**"></div>
+        <div class="cl1">
+            <label for="">Country</label>
+            <input type="text">
+        </div>
+        <div class="c2" >
+        <button type="submit">submit</button>
+        <button type="reset">clear</button>
+        <button type="ok">ok</button>
+        </div>
+        <br>
+
+
+    </form>
+</body>
+</html>
